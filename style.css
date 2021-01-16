@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -75,6 +77,9 @@ main {
   margin: 2rem 0;
   padding: 1rem 5rem;
   align-items: center;
+  cursor: pointer;
+  border: 1px solid rgba(232, 236, 241, 0.8);
+  border-radius: 2rem;
 }
 
 .link h2 {
@@ -91,13 +96,13 @@ main {
   color: white;
   padding: 1rem;
 
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pro img {
-  position: absolute;
-  top: -15%;
-  right: 15%;
+  display: block;
   width: 80px;
   height: 80px;
 }
