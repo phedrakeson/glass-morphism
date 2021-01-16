@@ -6,6 +6,25 @@
   list-style: none;
 }
 
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
 main {
   min-height: 100vh;
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -30,6 +49,63 @@ main {
   width: 60%;
 
   z-index: 2;
+
+  display: flex;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 1rem;
+
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+}
+
+.link {
+  display: flex;
+  margin: 2rem 0;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0 2rem;
+}
+
+.games {
+  flex: 2;
+}
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+
+  position: relative;
+}
+
+.pro img {
+  position: absolute;
+  top: -15%;
+  right: 15%;
+  width: 80px;
+  height: 80px;
+}
+
+.pro h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
 }
 
 .circle-1,
